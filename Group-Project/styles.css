@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #b2d8d8;
+    color: #000000;
     padding: 1rem 0;
     text-align: center;
 }
@@ -19,37 +19,100 @@ header h1 {
 }
 
 nav {
-    background-color: #444;
+    /*aligns the nav bar*/
+    text-align: center;
+    background-color: #b2d8d8;
     color: #fff;
-    padding: 0.5rem 0;
+    position: relative;
+    margin: 0 39%;
+
 }
 
 nav a {
-    color: #fff;
-    margin: 0 1rem;
+    /*controls the color of the nav bar text and block*/
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    
+}
+nav ul{
+    /*controls the padding and margin of the nav bar listings*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b2d8d8;
+}
+nav li{
+    display: inline;
+    float: left;
 }
 
 nav a:hover {
     text-decoration: underline;
+    background-color: #617a7a;
+}
+
+.dropdown {
+    position:inherit;
+    display: inline-block;
+  }
+
+.dropbtn {
+background-color: #b2d8d8;
+color: black;
+text-align: center;
+padding: 14px 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+text-align: center;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+padding: 10px;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #617a7a;
+text-decoration: underline;
 }
 
 main {
-    padding: 2rem;
-}
-
-section {
-    margin-bottom: 2rem;
+    padding: 2px;
+    border: dashed, 5px, black;
+    margin: 3rem 3rem;
 }
 
 section h2 {
     font-size: 2rem;
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
+    text-align: center;
 }
 
 footer {
-    background-color: #333;
+    background-color: #94ac86;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
@@ -61,7 +124,6 @@ footer {
 footer p {
     margin: 0;
 }
-
 
 /* MUSIC PAGE */
 .container {
