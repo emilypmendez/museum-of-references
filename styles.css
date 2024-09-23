@@ -24,7 +24,7 @@ nav {
     background-color: #b2d8d8;
     color: #fff;
     position: relative;
-    margin: 0 39%;
+    margin: 0 38%;
 
 }
 
@@ -177,4 +177,24 @@ iframe {
     border-radius: 5px;
     cursor: pointer;
     margin-left: 10px;
+}
+/* DIGITAL ART PAGE */
+
+.digital_header{
+    margin: 0 20rem;
+}
+
+.main_image{
+    margin-left: 32rem;
+    margin-top: 3rem;
+    width: 30rem;
+}
+
+.digital_paragraph{
+    margin:3rem 20rem;
+}
+.test_image{
+    width: 200px;
+    margin: 20px;
+
 }
